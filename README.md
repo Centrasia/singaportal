@@ -4,8 +4,8 @@ singaportal
 シンガポータルビジネス用
 
 ## メンバー
-tyler director
-issac total designer
+*tyler director
+*issac total designer
 
 ## ファイル構成
 
