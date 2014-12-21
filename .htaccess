@@ -1,0 +1,26 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.singaportal\.net
+RewriteRule (.*) http://singaportal.net/$1 [R=301,L]
+
+
+RewriteRule ^index\.html http://singaportal.net/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^singaportal/\.net
+RewriteRule ^(.*) http://singaportal.net/$1 [R=301,L]
+
+
+Redirect permanent /info/index.htm http://chintainet-sg.com/lifestyle/
+Redirect permanent /info/nation.htm http://chintainet-sg.com/lifestyle/nation/
+Redirect permanent /info/strategy.htm http://chintainet-sg.com/lifestyle/strategy/
+Redirect permanent /info/history.htm http://chintainet-sg.com/lifestyle/history/
+Redirect permanent /info/others.htm http://chintainet-sg.com/lifestyle/price/
+Redirect permanent /info/orchard.htm http://chintainet-sg.com/lifestyle/orchard/
+Redirect permanent /info/cityhall.htm http://chintainet-sg.com/lifestyle/cityhall/
+Redirect permanent /info/marina.htm http://chintainet-sg.com/lifestyle/marina/
+Redirect permanent /info/chinatown.htm http://chintainet-sg.com/lifestyle/chinatown/
+Redirect permanent /info/sentosa.htm http://chintainet-sg.com/lifestyle/sentosa/
+Redirect permanent /info/spot.htm http://chintainet-sg.com/lifestyle/spot/
+Redirect permanent /info/amusement.htm http://chintainet-sg.com/lifestyle/amusement/
+Redirect permanent /info/hotel.htm http://chintainet-sg.com/lifestyle/hotel/
+Redirect permanent /info/sights.htm http://chintainet-sg.com/lifestyle/lifestyle_cat/area/
+
+

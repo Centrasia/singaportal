@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+
+/*************************************************
+			Foundation
+*************************************************/
+
+table.flow,table.cost{
+	width: 690px;
+	margin: 0 10px 20px;
+	}
+
+	table.flow th,table.flow td,
+	table.cost th,table.cost td{
+		padding: 8px 5px;
+		vertical-align: middle;
+		border: #CCC solid 1px;
+		}
+	
+	table.flow thead th,
+	table.cost thead th{
+		background: #006;
+		text-align: center;
+		color: #FFF;
+		}
+	table.flow tbody th,
+	table.cost tbody th{
+		background: #E4EBF2;
+		text-align: left;
+		}
+	table.flow tbody th.total,
+	table.cost tbody th.total{
+		background: #CFF;
+		text-align: right;
+		}
+	
+	table.flow tbody td.between,
+	table.cost tbody td.between{
+		background: #E7E7E7;
+		text-align: center;
+		font-weight: bold;
+		}
+
+
+/*************************************************
+			Tour
+*************************************************/
+
+table.schedule{
+	width: 690px;
+	margin: 0 10px 20px;
+	}
+
+	table.schedule th,table.schedule td{
+		padding: 8px 5px;
+		vertical-align: middle;
+		border: #CCC solid 1px;
+		}
+	
+	table.schedule thead th{
+		background: #006;
+		text-align: center;
+		color: #FFF;
+		}
+	table.schedule tbody th{
+		background: #E4EBF2;
+		text-align: left;
+		}
+	table.schedule tbody th.total{
+		background: #CFF;
+		text-align: right;
+		}
+	
+	table.schedule tbody td.between{
+		background: #E7E7E7;
+		text-align: center;
+		font-weight: bold;
+		}
+
+
+/*************************************************
+			FAQ
+*************************************************/
+
+ul.q{
+	margin: 0 0 150px 0;
+	padding: 5px;
+	}
+	
+	ul.q li{
+		margin: 0 0 2px;
+		padding: 5px 0;
+		border-bottom: #DDD dashed 1px;	
+		overflow: hidden;
+		}
+			
+		ul.q li a{
+			text-decoration: underline;
+			}
+			
+		ul.q li p{
+			margin: 0 10px 0 0;
+			float: left;
+			}
+	
+		ul.q li p.icon{
+			background: #6B5600;
+			padding: 2px;
+			width: 20px;
+			color: #FFF;
+			font-weight: bold;
+			text-align: center;
+			}
+
+div.a{
+	border: #DDD solid 1px;
+	margin: 0 0 30px;
+	}
+
+	div.a p{
+		padding: 5px;
+		}
+
+	div.a p.title{
+		background: #6B5600;
+		border-bottom: #DDD solid 1px;
+		color: #FFF;
+		}
+
+	div.a p.return{
+		background: #E7E7E7;
+		border-top: #DDD dotted 1px;
+		text-align: right;
+		}
+
+
+/*************************************************
+			Words
+*************************************************/
+
+table.words{
+	width: 690px;
+	margin: 0 10px 20px;
+	}
+
+	table.words th,table.words td{
+		padding: 8px 5px;
+		vertical-align: middle;
+		border: #CCC solid 1px;
+		}
+	
+	table.words th{
+		width: 120px;
+		background: #006;
+		text-align: center;
+		color: #FFF;
+		}
+
+
+/*************************************************
+			Offer
+*************************************************/
+
+table.offer{
+	width: 690px;
+	margin: 0 10px 40px;
+	border: #DDD solid 3px;
+	}
+
+	table.offer td{
+		padding: 10px 10px 10px 5px;
+		}
+		#main table.offer td h3{
+			margin: 0 0 5px;
+			}
+		#main table.offer td ul.common{
+			margin: 10px 0;
+			font-weight: bold;
+			color: #6B5600;
+			}
+	
+	table.offer th{
+		width: 150px;
+		padding: 10px 5px 10px 10px;
+		vertical-align: top;
+		}
+		table.offer th img{
+			display: inline;
+			}
+	
+	table.offer td.check{
+		background: #EAF9F6;
+		text-align: center;
+		font-weight: bold;
+		border-top: #CCC dashed 1px;
+		border-bottom: #CCC solid 1px;
+		}
+
+
+
+/*************************************************
+			Form
+*************************************************/
+
+table.form{
+	width: 690px;
+	margin: 0 10px 30px;
+	}
+
+	table.form th,table.form td{
+		padding: 10px;
+		vertical-align: middle;
+		border-bottom: #CCC dotted 1px;
+		}
+	
+	table.form th{
+		background:#EFEEDC;
+		border-right: #A89D0F dotted 1px;
+		border-bottom: #A89D0F dotted 1px;
+		text-align: right;
+		width: 170px;
+		}
+	
+	table.form th p.required{
+		background: #CC3737;
+		border: #CE0212 solid 1px;
+		color: #FFF;
+		width: 30px;
+		padding: 0 2px;
+		margin: 0 5px 0 0;
+		text-align: center;
+		font-size: 90%;
+		line-height: 17px;
+		float: left;
+		}
+
+table.form .w50{width: 50px;}
+table.form .w100{width: 100px;}
+table.form .w150{width: 150px;}
+table.form .w200{width: 200px;}
+table.form .w250{width: 250px;}
+table.form .w300{width: 300px;}
+table.form .w-large{width: 95%; height: 150px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
